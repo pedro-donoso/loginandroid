@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="hello_blank_fragment">Hello blank fragment Login</string>
+</resources>
