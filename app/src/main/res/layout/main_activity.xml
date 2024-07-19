@@ -21,14 +21,13 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?android:attr/windowBackground"
-            app:title="Mi App"
             app:titleTextColor="@android:color/white"
+            app:title="Mi App"
             app:menu="@menu/toolbar"
         />
     </com.google.android.material.appbar.AppBarLayout>
-    
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container_view"
+        android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
