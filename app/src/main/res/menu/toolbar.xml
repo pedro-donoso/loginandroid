@@ -26,7 +26,4 @@
         app:showAsAction="collapseActionView"
         android:visible="true"
         />
-
-
-
 </menu>

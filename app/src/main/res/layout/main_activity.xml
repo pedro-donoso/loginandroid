@@ -8,6 +8,25 @@
     tools:context=".view.MainActivity"
     >
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?android:attr/windowBackground"
+            app:title="Mi App"
+            app:titleTextColor="@android:color/white"
+            app:menu="@menu/toolbar"
+        />
+    </com.google.android.material.appbar.AppBarLayout>
+    
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container_view"
         android:name="androidx.navigation.fragment.NavHostFragment"
